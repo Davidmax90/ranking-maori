@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking de Vendas - Squad MAORI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="loading" class="loading-message">Carregando dados...</div>
+        <div id="error-message" class="error-message" style="display: none;">
+            Houve um erro ao carregar os dados. Por favor, verifique a API e a conexão.
+        </div>
+
+        <div id="dashboard-top" class="dashboard-top" style="display: none;">
+            <div class="header-section visual">
+                <img src="assets/suri.png" alt="Suri" class="suri-avatar">
+            </div>
+            <div class="header-section squad">
+                <img src="assets/maori_logo.png" alt="Maori Logo" class="maori-logo">
+            </div>
+            <div class="header-section leader">
+                <img src="assets/raul_viana.png" alt="Raul Viana" class="leader-photo">
+            </div>
+            <div id="general-data" class="header-section general-data-card">
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill"></div>
+            </div>    
+        </div>
+        
+
+        <div id="top-rankings-container" class="top-rankings-container" style="display: none;">
+            </div>
+
+        <div id="full-ranking-container" class="full-ranking-container" style="display: none;">
+            </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
