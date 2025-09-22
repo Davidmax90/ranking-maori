@@ -1,8 +1,8 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif; 
-    background-color: #0D284A; 
-    background-image: url('assets/background-pattern.png'); 
-    background-repeat: repeat;
+    background-color: #F2F3F4; 
+    /*background-image: url('assets/background-pattern.png'); 
+    background-repeat: repeat;*/
     color: #FFFFFF;
     margin: 0;
     padding: 10px;
@@ -388,4 +388,5 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
+
 }
