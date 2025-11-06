@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "Alex Uchôa": "assets/alex_uchoa.png",
         "Amanda Ribeiro": "assets/amanda_ribeiro.png",
         "André Queiroz": "assets/andre_queiroz.png",
-        "Davi Marinho": "assets/davi_marinho.png",
+        "Jossiane": "assets/jossiane.png",
         "David Marques": "assets/david_marques.png",
-        "Emerson Rocha": "assets/emerson_rocha.png",
+        "Clailton": "assets/claiton.png",
         "Everton Lopes": "assets/everton_lopes.png",
         "João Victor": "assets/joao_victor.png",
     };
@@ -190,4 +190,5 @@ const formatCurrency = (value) => {
 
 
     fetchData();
+
 });
