@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "André Queiroz": "assets/andre_queiroz.png",
         "Jossiane": "assets/jossiane.png",
         "David Marques": "assets/david_marques.png",
-        "Clailton": "assets/claiton.png",
-        "Everton Lopes": "assets/everton_lopes.png",
+        "Clailton": "assets/clailton.png",
+        "Emerson Rocha": "assets/emerson_rocha.png",
         "João Victor": "assets/joao_victor.png",
     };
     const defaultPhoto = "assets/default-avatar.png";
@@ -192,3 +192,4 @@ const formatCurrency = (value) => {
     fetchData();
 
 });
+
