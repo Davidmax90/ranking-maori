@@ -3,42 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ranking de Vendas - Squad MAORI</title>
+    <title>Ranking Squad MAORI | Pro Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="container">
-        <div id="loading" class="loading-message">Carregando dados...</div>
-        <div id="error-message" class="error-message" style="display: none;">
-            Houve um erro ao carregar os dados. Por favor, verifique a API e a conexão.
+        <div id="loading" class="state-msg">
+            <div class="spinner"></div>
+            <p>Carregando Performance...</p>
         </div>
 
-        <div id="dashboard-top" class="dashboard-top" style="display: none;">
-            <div class="header-section visual">
-                <img src="assets/suri.png" alt="Suri" class="suri-avatar">
+        <header id="dashboard-top" class="glass-header" style="display: none;">
+            <div class="header-top-row">
+                <div class="brand-assets">
+                    <img src="assets/suri.png" alt="Suri" class="logo-s">
+                    <img src="assets/maori_logo.png" alt="Maori" class="logo-m">
+                    <div class="leader-frame">
+                        <img src="assets/raul_viana.png" alt="Raul Viana">
+                    </div>
+                </div>
+                <div id="general-data" class="header-stats"></div>
             </div>
-            <div class="header-section squad">
-                <img src="assets/maori_logo.png" alt="Maori Logo" class="maori-logo">
+            <div class="main-progress-bar">
+                <div class="progress-fill"></div>
             </div>
-            <div class="header-section leader">
-                <img src="assets/raul_viana.png" alt="Raul Viana" class="leader-photo">
-            </div>
-            <div id="general-data" class="header-section general-data-card">
-            </div>
-            <div class="progress-bar-container">
-                <div class="progress-bar-fill"></div>
-            </div>    
-        </div>
-        
+        </header>
 
-        <div id="top-rankings-container" class="top-rankings-container" style="display: none;">
-            </div>
+        <section id="top-rankings-container" class="podium-area" style="display: none;"></section>
 
-        <div id="full-ranking-container" class="full-ranking-container" style="display: none;">
-            </div>
+        <section id="full-ranking-container" class="detailed-grid" style="display: none;"></section>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
