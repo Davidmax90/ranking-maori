@@ -33,7 +33,7 @@ body {
 .header-top-row { display: flex; justify-content: space-between; align-items: center; gap: 30px; }
 .brand-assets { display: flex; align-items: center; gap: 15px; }
 .logo-s, .logo-m { height: 90px; }
-.leader-frame img { height: 90px; width: 90px; border-radius: 16px; border: 2px solid var(--primary); object-fit: cover; }
+.leader-frame img { height: 90px; width: 90px; border-radius: 50px; border: 2px solid var(--primary); object-fit: cover; }
 
 .header-stats { flex: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; }
 .stat-box label { font-size: 0.65rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 1px; }
@@ -126,4 +126,5 @@ body {
     .header-top-row { flex-direction: column; text-align: center; }
     .header-stats { grid-template-columns: 1fr 1fr; width: 100%; }
 }
+
 
