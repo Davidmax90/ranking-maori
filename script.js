@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "David Marques": "assets/david_marques.png",
         "Clailton": "assets/clailton.png",
         "Emerson Rocha": "assets/emerson_rocha.png",
-        "João Victor": "assets/john.png",
+        "João Victor": "assets/joao_victor.png",
     };
     const defaultPhoto = "assets/default-avatar.png";
 
@@ -106,4 +106,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     fetchData();
 });
+
 
